@@ -37,10 +37,12 @@ body {
 
 /* Картинка */
 #image-container {
-    text-align: center;
     margin-top: 30px;
     width: 302px;
     height: 403px ;
+      display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;
 }
 
 #image-container img {
