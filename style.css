@@ -39,6 +39,8 @@ body {
 #image-container {
     text-align: center;
     margin-top: 30px;
+    width: 302px;
+    height: 403px ;
 }
 
 #image-container img {
