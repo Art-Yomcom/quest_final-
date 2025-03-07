@@ -35,23 +35,17 @@ body {
     color: #ff6666; /* Красный цвет для текста */
 }
 
-
-/* Картинка */
-/*
+/* картинка */
 #image-container {
-    margin-top: 30px;
-    width: 302px;
-    height: 403px ;
-*/
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center;     /* Центрирование по вертикали */
+    height: 100vh;          /* Высота контейнера на весь экран */
 }
 
 #image-container img {
-     width: 302px;
-    height: 403px
-    max-width: 100%;
+    width: 302px;
+    height: 403px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(255, 204, 0, 0.7); /* Жёлтая тень */
-     display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center;     /* Центрирование по вертикали */
 }
