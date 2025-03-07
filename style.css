@@ -35,12 +35,14 @@ body {
     color: #ff6666; /* Красный цвет для текста */
 }
 
+
 /* Картинка */
+/*
 #image-container {
     margin-top: 30px;
     width: 302px;
     height: 403px ;
-   
+*/
 }
 
 #image-container img {
