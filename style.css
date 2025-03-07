@@ -40,9 +40,9 @@ body {
     margin-top: 30px;
     width: 302px;
     height: 403px ;
-      display: flex;
+    display: flex;
     justify-content: center; /* Центрирование по горизонтали */
-    align-items: center;
+    align-items: center;     /* Центрирование по вертикали */
 }
 
 #image-container img {
